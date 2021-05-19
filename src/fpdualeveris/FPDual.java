@@ -26,16 +26,7 @@ public class FPDual {
 	 * 
 	 * @param args
 	 */
-	public static void main(String[] args) {
-
-		
-		StringBuilder sbuilder = new StringBuilder();
-        long inicio = System.currentTimeMillis();
-        for (int i=0; i<20000; i++) {
-            sbuilder.append("Elefante");
-        }
-        long fin = System.currentTimeMillis();
-        System.out.println("Tiempo del StringBuilder: " + (fin-inicio));      
+	public static void main(String[] args) {    
 		
 		operatorsChallenge();
 
