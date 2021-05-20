@@ -9,15 +9,13 @@ package operators;
  */
 public class Pinball {
 
-	StringBuilder stringBuilder = new StringBuilder();
-
-	/**Variable estatica pero privado que cuenta las veces que la bola ha rebotado*/
+	/** Variable estatica pero privado que cuenta las veces que la bola ha rebotado */
 	private static int numBounces = 0;
 
-	/** Variables privada que te cuenta el total de puntos*/
+	/** Variables privada que te cuenta el total de puntos */
 	private int score = 0;
 
-	/**Variable privada que almacena el nombre del jugador*/
+	/** Variable privada que almacena el nombre del jugador */
 	private String player = "";
 
 	/**
@@ -186,6 +184,7 @@ public class Pinball {
 
 	/**
 	 * Metodo que devuelve el nombre del jugador
+	 * 
 	 * @return the player
 	 */
 	public String getPlayer() {
@@ -194,6 +193,7 @@ public class Pinball {
 
 	/**
 	 * Metodo que establece el nombre del jugador
+	 * 
 	 * @param player
 	 *            the player to set
 	 */
